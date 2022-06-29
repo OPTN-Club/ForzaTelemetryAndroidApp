@@ -24,5 +24,5 @@ Type in the IP thats at the top of the app, and the port you chose (default: 530
 ![Screenshot (16)](https://user-images.githubusercontent.com/25795619/155897833-31f7b933-4b3f-4490-8c34-7fe14c11dfa9.png)
 
 
-And your done! The button should change to "CONNECTED". When you unpause the game, data should begin to come in. If you have
-any problems or crashes, leave an Issue in this github, or DM me on discord at root.#3543
+And you're done! The button should change to "CONNECTED". When you unpause the game, data should begin to come in. If you have
+any problems or crashes, leave an Issue in this github, or DM me on discord at root.#6923
