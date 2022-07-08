@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ForzaTelemetry</string>
+    <string name="app_version">release.0.2.0</string>
+    <string name="awaiting_data">Awaiting data...</string>
+</resources>
