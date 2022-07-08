@@ -61,15 +61,16 @@
            android:summary="Reset all settings back to their default state"/> -->
 
 </PreferenceCategory>
-
+<PreferenceCategory>
     <Preference
-        android:enabled="false"
         android:persistent="false"
-        android:summary="Made with love by Root :)"/>
-<!-- <androidx.preference.SwitchPreference
-   android:defaultValue="true"
-   android:key="isRaceOn"
-   android:summary="race"
-   android:title="isRaceOn" /> -->
+        android:layout="@layout/credits_pref"/>
+</PreferenceCategory>
+
+    <!-- <androidx.preference.SwitchPreference
+       android:defaultValue="true"
+       android:key="isRaceOn"
+       android:summary="race"
+       android:title="isRaceOn" /> -->
 
 </androidx.preference.PreferenceScreen>

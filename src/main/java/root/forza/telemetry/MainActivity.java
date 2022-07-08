@@ -237,7 +237,6 @@ public class MainActivity extends AppCompatActivity {
                         if (tempApi.getTimeStampMS() != 0) {
                             setButtonText("Connected.");
                             engineRpm_SeekBar.setEnabled(true);
-                            engineRpm_SeekBar.setMax(tempApi.getEngineMaxRpm());
                             isConnected = true;
                         }
                     }
@@ -261,6 +260,7 @@ public class MainActivity extends AppCompatActivity {
                     updateText(timestamp_TextView,           "timestamp: " + forzaApi.getTimeStampMS());
                     updateText(engineIdleRPM_TextView,       "engineIdleRPM: " + forzaApi.getEngineIdleRpm());
                     updateText(engineCurrentRPM_TextView,    "engineCurrentRPM: " + forzaApi.getCurrentEngineRpm());
+                    updateText(engineMaxRPM_TextView,        "engineMaxRPM: " + forzaApi.getEngineMaxRpm());
                     updateText(accelerationX_TextView,       "accelerationX: " + forzaApi.getAccelerationX());
                     updateText(accelerationY_TextView,       "accelerationY: " + forzaApi.getAccelerationY());
                     updateText(accelerationZ_TextView,       "accelerationZ: " + forzaApi.getAccelerationZ());
